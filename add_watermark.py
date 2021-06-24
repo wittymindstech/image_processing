@@ -7,7 +7,7 @@ width, height = im.size
 
 draw = ImageDraw.Draw(im)
 text = "sample watermark"
-
+#Download ttf from https://github.com/JotJunior/PHP-Boleto-ZF2/blob/master/public/assets/fonts/arial.ttf
 font = ImageFont.truetype('arial.ttf', 36)
 textwidth, textheight = draw.textsize(text, font)
 
